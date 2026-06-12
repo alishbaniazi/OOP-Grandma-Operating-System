@@ -1,10 +1,10 @@
-# 💻 Grandma's Computer System
+# Grandma's Computer System
 
 A fully object-oriented C++ simulation of a personal computer built for a non-technical user — modelling hardware resources, application lifecycle management, file operations, and a calculator with history and statistics, all through a clean console interface.
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 
 This project was built as part of **CS-1004 Object-Oriented Programming (Spring 2026)** at **FAST-NUCES**. The theme: your grandmother wants to digitize her decades of handwritten journals. You build her a custom computer — simple on the outside, complex under the hood.
 
@@ -12,7 +12,7 @@ The user never touches RAM, disk pointers, or memory — she just says *"Open th
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 ├── Header.h          # All class definitions and inline menu functions
@@ -22,7 +22,7 @@ The user never touches RAM, disk pointers, or memory — she just says *"Open th
 
 ---
 
-## 🧱 Architecture
+## Architecture
 
 ### Hardware Layer
 | Class | Responsibility |
@@ -44,7 +44,7 @@ The user never touches RAM, disk pointers, or memory — she just says *"Open th
 
 ---
 
-## ✨ Features
+## Features
 
 ### File Management
 - Create, delete, view, and list files via `FileExplorer`
@@ -75,7 +75,7 @@ The user never touches RAM, disk pointers, or memory — she just says *"Open th
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Requirements
 - Visual Studio 2019 or above
@@ -95,7 +95,7 @@ The user never touches RAM, disk pointers, or memory — she just says *"Open th
 
 ---
 
-## 🎮 Usage Flow
+## Usage Flow
 
 ```
 Main Menu
@@ -109,7 +109,7 @@ Main Menu
 
 ---
 
-## 🔧 Design Highlights
+## Design Highlights
 
 - **No STL strings or string libraries** — all strings are raw `char*` with manual deep-copy, length, and comparison helpers
 - **No `cmath` or `cstring`** — custom `sqrt` (Newton's method), `pow`, `len`, `copystr`, `areEqual`, `inttostr` implemented from scratch
@@ -119,7 +119,7 @@ Main Menu
 
 ---
 
-## 📋 Operator Summary
+## Operator Summary
 
 | Operator | Class | Meaning |
 |----------|-------|---------|
@@ -135,6 +135,6 @@ Main Menu
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 Built for **CS-1004 OOP Assignment 2** — FAST-NUCES, Spring 2026.
